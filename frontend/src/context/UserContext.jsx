@@ -13,7 +13,7 @@ export const UserProvider = (props) => {
             Authorization: "Bearer " + token,
           },
         };
-  
+  ////cambio de ramamama
         const response = await fetch("/api/users/me", requestOptions);
   
         if (!response.ok) {
